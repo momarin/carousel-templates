@@ -6,6 +6,7 @@
     - BoxIcons;
     - Git Fancy Border Radius Generator;
     - My Swiper;
+    - No responsive;
 
 
 #created by @codehal, available on https://www.youtube.com/watch?v=DIE2yLbtPXc.
