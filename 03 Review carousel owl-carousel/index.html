@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Review carousel using Bootstrap 5</title>
+
+    <!-- -------------------------------------------------- -->
+    <!-- Bootstrap min CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- -------------------------------------------------- -->
+    <!--------------- Owl Carousel external CDN -------------->
+    <!-- Owl Carousel min CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- -------------------------------------------------- -->
+    <!---------------------- Custom CSS ---------------------->
+    <link rel="stylesheet" href="styles.css">
+    <!-- -------------------------------------------------- -->
+    <!----------------------- Custom JS ---------------------->
+    <script src="script.js" defer></script>
+    <!-- -------------------------------------------------- -->
+  </head>
+  <body>
+
+
+    <section class="review">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="sec-heading text-center">
+                        <h6>Resenhas</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="characters-carousel owl-carousel">
+                    <!-- spongebob -->
+                    <div class="single-box">
+                        <div class="img-area">
+                            <img src="img/SpongeBob_SquarePants_personagem.png" alt="Sponge Bob">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni voluptas voluptate deserunt. Commodi, nam animi! Perferendis tempore dolore numquam!</p>
+                            <h4>Bob Esponja</h4>
+                            <h6>Calça Quadrada</h6>
+                        </div>
+                    </div>
+                    <!-- patrick -->
+                    <div class="single-box">
+                        <div class="img-area">
+                            <img src="img/Patrick_2018.webp" alt="Patrick">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni voluptas voluptate deserunt. Commodi, nam animi! Perferendis tempore dolore numquam!</p>
+                            <h4>Patrick Estrela</h4>
+                            <h6>Especialista na arte de não fazer nada</h6>
+                        </div>
+                    </div>
+                    <!-- squidward -->
+                    <div class="single-box">
+                        <div class="img-area">
+                            <img src="img/Lula.webp" alt="Squidward">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni voluptas voluptate deserunt. Commodi, nam animi! Perferendis tempore dolore numquam!</p>
+                            <h4>Lula Molusco</h4>
+                            <h6>Detesta barulho</h6>
+                        </div>
+                    </div>
+                    <!-- gary -->
+                    <div class="single-box">
+                        <div class="img-area">
+                            <img src="img/gary.webp" alt="Gary">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni voluptas voluptate deserunt. Commodi, nam animi! Perferendis tempore dolore numquam!</p>
+                            <h4>Gary</h4>
+                            <h6>O Caracol</h6>
+                        </div>
+                    </div>
+                    <!-- eugene -->
+                    <div class="single-box">
+                        <div class="img-area">
+                            <img src="img/Eugene.webp" alt="Eugene">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni voluptas voluptate deserunt. Commodi, nam animi! Perferendis tempore dolore numquam!</p>
+                            <h4>Eugene Krabs</h4>
+                            <h6>Proprietário e fundador do Krusty Krab</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- ----------------------------------------------------- -->
+    <!-- Bootstrap JS Bundle with Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ----------------------------------------------------- -->
+    <!-------------------- JQuery CDN Links --------------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ----------------------------------------------------- -->
+    <!---------------- JS Owl Carousel CDN links ---------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- ----------------------------------------------------- -->
+  </body>

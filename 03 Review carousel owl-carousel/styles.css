@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Text+Me+One&display=swap");
+
+/* BODY
+--------------------------------------------- */
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: #f6f3ea;
+}
+/* HEAD
+--------------------------------------------- */
+.review {
+  padding: 80px 0;
+}
+.sec-heading {
+  margin-bottom: 60px;
+}
+.sec-heading h6 {
+  font-family: "allura";
+  font-weight: 500;
+  font-size: 80px;
+}
+/* REVIEW BOX
+--------------------------------------------- */
+.single-box {
+  background-color: #fff;
+  padding: 50px 30px 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.single-box img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px #aaa;
+}
+.single-box h4 {
+    font-weight: 600;
+    margin: 0;
+    font-family: 'allura';
+}
+.img-area {
+  margin: 45px 0 20px;
+}
+.single-box .img-area {
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+.single-box .content {
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+}
+.single-box p {
+    margin: 10px 0 25px;
+    line-height: 1.7;
+}
+/* OWL CAROUSEL
+--------------------------------------------- */
+.characters-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    text-align: center;
+    width: 100%;
+}
+.characters-carousel button.owl-dot {
+    width: 16px;
+    height: 16px;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 0 6px;
+    text-align: center;
+    border-radius: 50%;
+}
+.characters-carousel button.owl-dot.active {
+    background-color: darksalmon;
+}
+/* RESPONSIVE
+--------------------------------------------- */
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .review {
+        padding: 70px 0 130px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .review {
+        padding: 70px 0 130px;
+    }
+    .single-box {
+        padding: 50px 0 40px;
+    }
+    .single-box .img-area {
+        width: 100%;
+        float: none;
+    }
+    .single-box .img-content {
+        width: 100%;
+        float: none;
+    }
+    .sec-heading h6{
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .review {
+        padding: 70px 0 130px;
+    }
+}
