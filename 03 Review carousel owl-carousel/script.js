@@ -2,7 +2,7 @@ $('.characters-carousel').owlCarousel({
     loop:true,
     nav:false,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:8000,
     animateOut:'fadeOut',
     animateIn:'fadeIn',
     smartSpeed:450,
