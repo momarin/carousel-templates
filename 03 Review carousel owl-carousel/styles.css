@@ -26,6 +26,7 @@ body {
   padding: 50px 30px 40px;
   border-radius: 20px;
   overflow: hidden;
+  height: 350px;
 }
 .single-box img {
     max-width: 100px;
